@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, grey, black);
+    font-family: arial;
+    height: 100vh;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    box-shadow: 0px 5px 10px black;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #fff;
+    margin: 50px 0;
+    font-size: 3rem;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    outline: none;
+    margin-bottom: 2rem;
+    height: 45px;
+    padding: 0.5rem 2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/* sorting btn */
+
+.sort-btn{
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    position: relative;
+    height: 45px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+i{
+    font-size: 40px;
+    margin: 0 0 50px 10px;
+
+}
+.list-items{
+    list-style: none;
+    border: 1px solid #ccc;
+    border-radius: 10px ;
+    overflow: hidden;
+}
+
+.list-item{
+    background-color: white;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    transition: all 0.3s;
+}
+
+.list-item:last-child{
+    border-bottom: none;
+}
+
+.list-item:hover{
+    background: #333;
+    color:#fff;
+    cursor: pointer;
+}
+
+.no-item{
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-left: 5px solid red;
+    background-color: pink;
+    color: red;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
