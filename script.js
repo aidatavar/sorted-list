@@ -22,7 +22,7 @@ sortBtn.addEventListener("click", sortList)
 
 // Global Variable
 let ascendingSort = false;
-let result;
+let result  = [...list];
 
 
 // loading function
@@ -55,6 +55,7 @@ function filter(e) {
     output.innerHTML = temp;
 }
 
+console.log("filter", filter())
 // sorting function
 function sortList() {
     let temp = "";
